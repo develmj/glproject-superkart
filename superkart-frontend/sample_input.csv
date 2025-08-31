@@ -1,0 +1,8 @@
+
+---
+
+## `sample_input.csv`
+```csv
+Product_Id,Product_Weight,Product_Sugar_Content,Product_Allocated_Area,Product_Type,Product_MRP,Store_Id,Store_Establishment_Year,Store_Size,Store_Location_City_Type,Store_Type
+FDX07,12.5,Regular,0.045,Snack Foods,155.0,OUT002,2005,Small,Tier 3,Food Mart
+
