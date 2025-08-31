@@ -1,0 +1,38 @@
+{
+  "model_name": "RandomForest (Tuned)",
+  "created_at_unix": 1756652539.481856,
+  "python_version": "3.12.11",
+  "lib_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.2"
+  },
+  "train_rows": 7010,
+  "train_cols": 15,
+  "test_rows": 1753,
+  "metrics_test": {
+    "RMSE": 274.7526240093901,
+    "MAE": 105.79525107454216,
+    "R2": 0.9338407698338187
+  },
+  "feature_groups": {
+    "numeric_features": [
+      "Product_Weight",
+      "Product_Allocated_Area",
+      "Product_MRP",
+      "Store_Establishment_Year",
+      "Store_Age",
+      "Price_per_Weight",
+      "Shelf_Investment"
+    ],
+    "categorical_features": [
+      "Product_Id",
+      "Product_Sugar_Content",
+      "Product_Type",
+      "Store_Id",
+      "Store_Size",
+      "Store_Location_City_Type",
+      "Store_Type",
+      "Product_Family"
+    ]
+  }
+}
