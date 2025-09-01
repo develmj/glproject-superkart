@@ -1,10 +1,15 @@
-flask
-flask-cors
-pydantic>=2
-joblib
-pandas
-numpy
-scikit-learn
-xgboost
-gunicorn
+# Web server & API
+flask==3.0.3
+flask-cors==4.0.0
+pydantic>=2.7,<3
+gunicorn==23.0.0
 
+# ML stack (pinned to training versions for pickle compatibility)
+scikit-learn==1.6.1
+joblib==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+xgboost==3.0.4
+
+# Hugging Face download utility
+huggingface_hub==0.23.4
